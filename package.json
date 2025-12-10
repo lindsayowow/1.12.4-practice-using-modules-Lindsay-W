@@ -12,5 +12,13 @@
   "dependencies": {
     "chalk": "^4.1.2",
     "yargs": "^18.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lindsayowow/1.12.4-practice-using-modules-Lindsay-W.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lindsayowow/1.12.4-practice-using-modules-Lindsay-W/issues"
+  },
+  "homepage": "https://github.com/lindsayowow/1.12.4-practice-using-modules-Lindsay-W#readme"
 }
