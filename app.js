@@ -46,3 +46,15 @@ const weatherMap = {
 let weather = weatherMap[argv.city] || "unknown";
 
 console.log(`Here is the weather for ${chalk.blue(argv.city)}: It will be a ${chalk.yellow(weather)} day. `);
+
+//Here is the paragraph of my expected deliverables:\
+
+// The purpose of package.json in managing dependencies is that it lists any modules
+// that the end user may need to install in order to properly run the given code.   
+// Node_modules should not be included in version control, firstly because as demonstrated by
+// this exercise, there can be a great number of files residing in the node_modules folder.  
+// In addition, with multiple people working on code, it can be possible to corrupt the node_modules. 
+// When you move node_modules to .gitignore, whoever is working on the code next can 
+// reinstall dependencies on their local machine through npm just by reading the .json file
+// and invoking the npm install command again with the proper module name.   
+// 
